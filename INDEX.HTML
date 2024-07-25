@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Sayyed Owais</title>
+    <style>
+        /* Reset default browser styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #032932;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        header {
+            background-color: #cab6db;
+            color: #191717;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-bottom: 1em;
+        }
+
+        nav ul {
+            list-style-type: none;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            background-color: #cab6db;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        section h2 {
+            font-size: 1.8em;
+            margin-bottom: 0.5em;
+        }
+
+       
+
+        .project p {
+            margin-bottom: 10px;
+        }
+
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .skill {
+            width: 45%;
+            margin-bottom: 20px;
+        }
+
+        .skill h3 {
+            margin-bottom: 5px;
+        }
+
+        .skill-bar {
+            background-color: #e9eeef;
+            height: 20px;
+            border-radius: 10px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .skill-level {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            height: 100%;
+            line-height: 20px;
+            font-size: 0.9em;
+            top: 0;
+            left: 0;
+            width: 0;
+            transition: width 1s ease;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding-top: 10px;
+            border-top: 1px solid #ccc;
+        }
+
+        footer p {
+            font-size: 1em;
+            margin-bottom: 0.5em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Sayyed Owais</h1>
+            <p>Web Developer | Fresher</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me </h2>
+            <p>To work for an organization which provides me the opportunity to improve my skills and knowledge to grow along with the organization objective.</p>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <h2>Education </h2>
+            <div class="project">
+                <h3>SSC</h3>
+                <p>Cbse 2010</p>
+            </div>
+            <div class="project">
+                <h3>HSC</h3>
+                <p>Mp State Board, 2012</p>
+            </div>
+            <div class="project">
+                <h3><B-tech></B-tech></h3>
+                <p>RGPV University, 2018</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <div class="skill">
+                    <h3>Technical Skills :</h3>
+                    <div class="skills-container">
+                        <div class="skill">
+                            <h4>Languages</h4>
+                            <p>PYTHON</p>
+                        </div>
+                        <div class="skill">
+                            <h4>Database</h4>
+                            <p>MySQL, SQL</p>
+                        </div>
+                        <div class="skill">
+                            <h4>Web Technology</h4>
+                            <p>HTML, CSS, JavaScript</p>
+                        </div>
+                        <div class="skill">
+                            <h4>Awareness</h4>
+                            <p>MS Excel, MS Word, Photoshop, Video Editing</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills </h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <h3>HTML</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level html" style="width: 92%;">92%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>CSS</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level css" style="width: 82.92%;">82.92%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level js" style="width: 79.71%;">79.71%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>Python</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level java" style="width: 71.08%;">71.08%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Details</h2>
+            <p><strong>Email:</strong> owaissayyed658@gmail.com</p>
+            <p><strong>Mobile:</strong> (+91) 9907115354</p>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p> &copy; 2024 Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
